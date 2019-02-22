@@ -1,6 +1,6 @@
 import win32com.client
 
-# xptmxm
+# xptmxm 테스트
 
 excel = win32com.client.Dispatch("Excel.Application")
 excel.Visible = True
