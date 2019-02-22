@@ -1,5 +1,7 @@
 import win32com.client
 
+# xptmxm
+
 excel = win32com.client.Dispatch("Excel.Application")
 excel.Visible = True
 wb = excel.Workbooks.Open('C:/Users/04869/Downloads/Pandas Study/data/korea_pop_2012.xls')
